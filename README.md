@@ -1,10 +1,11 @@
 # RAGraph
-Sample RAG chatbot querying a graph database with agentic workflow in LangChain
+A sample RAG chatbot querying a graph database with agentic workflow in LangChain.
 
 This project is a free implementation of the Real Python's tutorial:
 [Build an LLM RAG Chatbot With LangChain](https://realpython.com/build-llm-rag-chatbot-with-langchain/) by Harrison Hoffman.
 
 # Prerequisites (diff from the tutorial)
+
 Here, I use Poetry as my environment manager with `pyenv` to manage the local versions of Python. First install `pyenv` via brew as [described here](https://github.com/pyenv/pyenv), then install `poetry` as:
 ```bash
 pipx install poetry
@@ -45,3 +46,10 @@ Simply, just run:
 poetry add langchain openai langchain-openai langchain-community langchainhub python-dotenv
 ```
 This concludes the prerequisites for setting up this project.
+
+# Usage
+If you are trying to run Python interpreter (REPL) within this repo, make sure to activate the poetry shell first:
+```bash
+poetry shell
+```
+
